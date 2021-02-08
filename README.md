@@ -29,3 +29,6 @@
   + RadeonBoost.kext
 + Drivers
   + VBoxHfs.efi
+  
+## Known issues
+  + Sleep wake failure
