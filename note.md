@@ -1,4 +1,4 @@
-[OneKey HighDPI](bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)")
+[OneKey HighDPI](`bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"`)
 
 [AppleALC layout table](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)
 
