@@ -25,10 +25,11 @@
   + SMCProcessor.kext
   + SMCSuperIO.kext
   + USBInjectAll.kext
-  + VoodooHDA.kext (I am lazy to test the id of AppleALC)
+  + VoodooHDA.kext (I am lazy for testing the id of AppleALC)
   + RadeonBoost.kext
 + Drivers
   + VBoxHfs.efi
   
 ## Known issues
   + Sleep wake failure
+  + With OC efi, I found that shutdown can't successfully shut the power.
