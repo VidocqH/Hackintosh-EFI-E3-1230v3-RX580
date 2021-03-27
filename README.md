@@ -32,4 +32,4 @@
   
 ## Known issues
   + Sleep wake failure
-  + With OC efi, I found that shutdown can't successfully shut the power.
+  + With OC efi, I found that shutdown can't successfully shut the power. (TODO)
