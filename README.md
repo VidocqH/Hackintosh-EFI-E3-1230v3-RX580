@@ -11,8 +11,13 @@
 |Audio|Realtek ALC892|
 |Network|Broadcom 802.11ac Network Adapter<br>Intel(R) Ethernet Connection I217-V|
 
+## <u>All the descriptions below are about the latest version of EFI</u>
+
+For now, it is `EFI-11.4.0-OpenCore`.
+
 ## EFI Structure
-+ OpenCore 0.6.5
+
++ OpenCore 0.7.1
 + ACPI
   + SSDT-EC-DESKTOP.aml
   + SSDT-PLUG-DRTNIA.aml
@@ -25,11 +30,11 @@
   + SMCProcessor.kext
   + SMCSuperIO.kext
   + USBInjectAll.kext
-  + VoodooHDA.kext (I am lazy for testing the id of AppleALC)
   + RadeonBoost.kext
+  + AppleALC.kext
 + Drivers
   + VBoxHfs.efi
   
 ## Known issues
+
   + Sleep wake failure
-  + With OC efi, I found that shutdown can't successfully shut the power. (TODO)
